@@ -12,7 +12,7 @@ const BlogPage = () => {
     return(
        <div className="page-wrapper inner-page home-s-3">
            <Navbar/>
-           <Breadcumb bdtitle={'Latest News'} bdsub={'Blog'}/>
+           <Breadcumb bdtitle={'So\'nggi yangiliklar'} bdsub={'xabarlar'}/>
            <BlogGrid/>
            <FooterSection/>
        </div>

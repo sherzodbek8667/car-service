@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 import Homepage from '../HomePage'
 import Homepage2 from '../HomePage2'
@@ -15,6 +15,9 @@ import ContactPages from '../ContactPage'
 import BlogPage from '../BlogPage'
 import BlogPageSidebar from '../BlogPageSidebar'
 import BlogSingleSidebar from '../BlogSingleSidebar'
+import CollapsibleTablePage from "../ServiceList/CollapsibleTablePage";
+import WorkSchedulePage from "../ServiceList/WorkSchedulePage";
+import OrderPage from "../OrderPage/OrderPage";
 
 
 const AllRoute = () => { 
@@ -22,23 +25,26 @@ const AllRoute = () => {
   return (
     <div className="App">
        <Router>
-          <Switch>
-              <Route exact path='/' component={Homepage} />
-              <Route path='/home' component={Homepage} />
-              <Route path='/home2' component={Homepage2} />
-              <Route path='/home3' component={Homepage3} />
-              <Route path='/about' component={Aboutpage} />
-              <Route path='/services' component={ServicePage} />
-              <Route path='/service-details' component={ServiceDetails} />
-              <Route path='/Pricing' component={PricingPage} />
-              <Route path='/team' component={TeamPage} />
-              <Route path='/testimonials' component={TestimonialPage} />
-              <Route path='/404' component={ErrorPage} />
-              <Route path='/contact' component={ContactPages} />
-              <Route path='/blog' component={BlogPage} />
-              <Route path='/blog-grid' component={BlogPageSidebar} />
-              <Route path='/blog-details' component={BlogSingleSidebar} />
-          </Switch>
+          <Routes>
+              <Route path='/' element={<Homepage/>} />
+              <Route path='/home' element={<Homepage/>} />
+              <Route path='/home2' element={<Homepage2/>} />
+              <Route path='/home3' element={<Homepage3/>} />
+              <Route path='/about' element={<Aboutpage/>} />
+              <Route path='/services' element={<ServicePage/>} />
+              <Route path='/service-details' element={<ServiceDetails/>} />
+              <Route path='/Pricing' element={<PricingPage/>} />
+              <Route path='/team' element={<TeamPage/>} />
+              <Route path='/testimonials' element={<TestimonialPage/>} />
+              <Route path='/404' element={<ErrorPage/>} />
+              <Route path='/contact' element={<ContactPages/>} />
+              <Route path='/blog' element={<BlogPage/>} />
+              <Route path='/blog-grid' element={<BlogPageSidebar/>} />
+              <Route path='/blog-details' element={<BlogSingleSidebar/>} />
+              <Route path='/table' element={<CollapsibleTablePage/>}/>
+              <Route path='/schedule' element={<WorkSchedulePage/>}/>
+              <Route path='/order' element={<OrderPage/>}/>
+          </Routes>
       </Router>
       
     </div>
