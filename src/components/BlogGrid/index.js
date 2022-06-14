@@ -25,11 +25,11 @@ const BlogGrid = () => {
                                     <img src={blog1} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Uralov Baxtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -40,11 +40,11 @@ const BlogGrid = () => {
                                     <img src={blog2} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Meliboyev Ixtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -55,11 +55,11 @@ const BlogGrid = () => {
                                     <img src={blog3} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Nematov Nail</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -70,11 +70,11 @@ const BlogGrid = () => {
                                     <img src={blog5} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Nazarov Olim</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -85,11 +85,11 @@ const BlogGrid = () => {
                                     <img src={blog6} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Xushvaqtov Ilhom</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -100,11 +100,11 @@ const BlogGrid = () => {
                                     <img src={blog7} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Raximov Sardor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>

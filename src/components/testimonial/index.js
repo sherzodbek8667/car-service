@@ -56,14 +56,14 @@ class Testimonial extends Component {
                                         <i className="fi flaticon-writer"></i>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum.</p>
+                                        <p>Men avtomobilimni CAR-SERVICE-MASTER tamirlash ustahonasida tamirlatdim. U ustahona hodimlari o'z ishining mutaxasislari ekan.</p>
                                     </div>
                                     <div className="hx-testimonial-img">
                                         <img src={testimonialImg_1} alt=""/>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <h4>Jimmy Alex</h4>
-                                        <span>SEO of Northy</span>
+                                        <h4>Shermatov Soxib</h4>
+                                        <span>Samarqand</span>
                                     </div>
                                 </div>
                             </div>
@@ -73,14 +73,14 @@ class Testimonial extends Component {
                                         <i className="fi flaticon-writer"></i>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum.</p>
+                                        <p>Men avtomobilimni CAR-SERVICE-MASTER tamirlash ustahonasida tamirlatdim. U ustahona hodimlari o'z ishining mutaxasislari ekan.</p>
                                     </div>
                                     <div className="hx-testimonial-img">
                                         <img src={testimonialImg_1} alt=""/>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <h4>Jimmy Alex</h4>
-                                        <span>SEO of Northy</span>
+                                        <h4>Usmanov Sodiq</h4>
+                                        <span>Jizzax</span>
                                     </div>
                                 </div>
                             </div>
@@ -90,14 +90,14 @@ class Testimonial extends Component {
                                         <i className="fi flaticon-writer"></i>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum.</p>
+                                        <p>Men avtomobilimni CAR-SERVICE-MASTER tamirlash ustahonasida tamirlatdim. U ustahona hodimlari o'z ishining mutaxasislari ekan.</p>
                                     </div>
                                     <div className="hx-testimonial-img">
                                         <img src={testimonialImg_1} alt=""/>
                                     </div>
                                     <div className="hx-testimonial-content">
-                                        <h4>Jimmy Alex</h4>
-                                        <span>SEO of Northy</span>
+                                        <h4>Uzoqov Lazizbek</h4>
+                                        <span>Qashqadaryo</span>
                                     </div>
                                 </div>
                             </div>

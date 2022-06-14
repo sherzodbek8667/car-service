@@ -17,12 +17,12 @@ const AboutSection = () => {
                 <div className="right-content">
                     <div className="about-content">
                         <div className="section-title">
-                            <span>About Our Company</span>
-                            <h2>How We Can Help you</h2>
+                            <span>Kompaniyamiz haqida</span>
+                            <h2>Biz sizga qanday yordam bera olamiz</h2>
                         </div>
                         <div className="details">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</p>
-                            <Link onClick={ClickHandler} to="/about" className="theme-btn-s2">Learn more</Link>
+                            <p>CAR-SERVICE-MASTER Auto tamirlash ustaxonasi xodimlari sizlarning aftomobillaringiz haqida qayg'uradi. Mashinalaringizga mukkammal darajada texnik xizmat ko'rsatadi.</p>
+                            <Link onClick={ClickHandler} to="/about" className="theme-btn-s2">Batafsil ma'lumot</Link>
                         </div>
                     </div>
                 </div>

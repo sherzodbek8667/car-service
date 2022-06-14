@@ -144,7 +144,7 @@
 
 .blog-single-section .tag-share .tag {
     display: inline-block;
-    float: left;
+   float: left;
 }
 
 @media (max-width: 767px) {

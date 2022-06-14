@@ -14,8 +14,8 @@ const Services = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title-s2 text-center">
-                        <span>What We Do</span>
-                        <h2>Our Services</h2>
+                        <span>Nima qilamiz</span>
+                        <h2>Bizning xizmatlar</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -25,8 +25,8 @@ const Services = (props) => {
                                 <i className="fi flaticon-turbo"></i>
                             </div>
                             <div className="service-text" >
-                                <h2>Engine Repair</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <h2>Dvigatel ta'mirlash</h2>
+                                <p>Avtomobilni divigatel qismiga kerakli texnik yordamni ko'rsatamiz.</p>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ const Services = (props) => {
                                 <i className="fi flaticon-tyre"></i>
                             </div>
                             <div className="service-text">
-                                <h2>Tires Replacement</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <h2>Shinalarni Almashtirish</h2>
+                                <p>Avtomobil shinalarini almashtiramiz va yamash xizmatlarini amalga oshiramiz.</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Services = (props) => {
                             </div>
                             <div className="service-text">
                                 <h2>Transmission</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <p>Avtomobil uzatmalar qutisini tamirlaymiz va almashtiramiz.</p>
                             </div>
                         </div>
                     </div>
@@ -58,8 +58,8 @@ const Services = (props) => {
                                 <i className="fi flaticon-car-repair"></i>
                             </div>
                             <div className="service-text">
-                                <h2>Diagnostic</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <h2>Kompyuter Diognostika</h2>
+                                <p>Kompyuter orqali avtomobilingizni nazorat qilib qayerida defekt borligini sizga malum qiladi.</p>
                             </div>
                         </div>
                     </div>
@@ -69,8 +69,8 @@ const Services = (props) => {
                                 <i className="fi flaticon-battery"></i>
                             </div>
                             <div className="service-text">
-                                <h2>Batteries</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <h2>Bateriya</h2>
+                                <p>Bazida shunday holatlar bo'ladiki avtomobil batareyasi yoriladi uni yamash va tamirlash mumkin.</p>
                             </div>
                         </div>
                     </div>
@@ -80,8 +80,8 @@ const Services = (props) => {
                                 <i className="fi flaticon-electricity"></i>
                             </div>
                             <div className="service-text">
-                                <h2>Breaks</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                                <h2>Singanlarni Almashtirish</h2>
+                                <p>Avtomobilning yardamchi va asosiy extiyot qismlarini almashtirish.</p>
                             </div>
                         </div>
                     </div>

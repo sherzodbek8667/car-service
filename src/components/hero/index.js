@@ -13,13 +13,13 @@ class SimpleSlider extends Component {
                 <div className="row">
                     <div className="col col-lg-6 col-md-7 slide-caption">
                         <div className="slide-title">
-                            <h2>We Ensure Your Safe<span>& Happy Journey</span></h2>
+                            <h2>Xavfsizligingizni Ta'minlaymiz<span>& Baxtli Sayohat</span></h2>
                         </div>
                         <div className="slide-subtitle">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+                            <p>CAR-SERVICE-MASTER xodimlari avtomobilingiz uchun kerakli barcha texnik xizmatlarni amalga oshiradi.</p>
                         </div>
                         <div className="btns">
-                            <Link to="/contact" className="theme-btn-s2">Contact Us</Link>
+                            <Link to="/contact" className="theme-btn-s2">Biz bilan bog'lanish</Link>
                         </div>
                     </div>
                     <div className="hero-image"></div>

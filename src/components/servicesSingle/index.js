@@ -14,14 +14,14 @@ const ServicesSingle = (props) => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="hx-service-dt-left">
                             <div className="widget category-widget">
-                                <h3>Categories</h3>
+                                <h3>Bo'limlar</h3>
                                 <ul>
-                                    <li><Link to="/service-details">Engine Repair</Link></li>
-                                    <li><Link to="/service-details">Tires Replacement</Link></li>
+                                    <li><Link to="/service-details">Dvigatel Ta'mirlash</Link></li>
+                                    <li><Link to="/service-details">Shinalarni Almashtirish</Link></li>
                                     <li><Link to="/service-details">Transmission</Link></li>
-                                    <li><Link to="/service-details">Diagnostic</Link></li>
-                                    <li><Link to="/service-details">Bateries Replacement</Link></li>
-                                    <li><Link to="/service-details">Break Repair</Link></li>
+                                    <li><Link to="/service-details">Kompyuter Diagnostika</Link></li>
+                                    <li><Link to="/service-details">Batareya Almashtirish</Link></li>
+                                    <li><Link to="/service-details">Singanlarni Almashtirish</Link></li>
                                 </ul>
                             </div>
                             <div className="hx-field-section">
@@ -29,8 +29,8 @@ const ServicesSingle = (props) => {
                                     <img src={im1} alt=""/>
                                 </div>
                                 <div className="hx-field-content">
-                                    <h3>Get<span>25%</span>Off</h3>
-                                    <h2>ALL ORDER</h2>
+                                    <h3>Ol<span>25%</span>O'chir</h3>
+                                    <h2>Hamma Buyurtma</h2>
                                 </div>
                             </div>
                         </div>
@@ -40,11 +40,11 @@ const ServicesSingle = (props) => {
                             <div className="hx-service-dt-img">
                                  <img src={im2} alt=""/>
                             </div>
-                            <h3>Why the right engine oil is important</h3>
-                            <p>An important thing to know about car maintenance reminder systems, especially those that track vehicle-operating conditions, is that their accuracy depends on using engine oil that meets the automaker’s specifications. If you use a lesser product – for example, conventional oil in an engine that requires full synthetic oil – no way to know.</p>
-                            <p>Thus, the oil could break down, resulting in accelerated engine wear or even failure before the reminder system displays a service alert. Most vehicle manufacturers, however, say to change the oil every 12 months the reminder system has</p>
-                            <h3>How We Work</h3>
-                            <p>An important thing to know about car maintenance reminder systems, especially those that track vehicle-operating conditions, is that their accuracy depends.</p>
+                            <h3>Nima uchun to'g'ri dvigatel moyi muhim?</h3>
+                            <p>Avtomobilga texnik xizmat ko'rsatishni eslatuvchi tizimlar, ayniqsa transport vositalarining ish sharoitlarini kuzatuvchi tizimlar haqida bilish kerak bo'lgan muhim narsa shundaki, ularning aniqligi avtomobil ishlab chiqaruvchisining texnik xususiyatlariga mos keladigan dvigatel moyidan foydalanishga bog'liq. Agar siz kamroq mahsulotdan foydalansangiz - masalan, to'liq sintetik moyni talab qiladigan dvigatelda an'anaviy moy - bilishning hech qanday usuli yo'q.</p>
+                            <p>Shunday qilib, moy parchalanishi mumkin, natijada vosita tez surtiladi yoki eslatma tizimi xizmat ogohlantirishini ko'rsatishdan oldin ishlamay qoladi. Biroq, ko'pgina avtomobil ishlab chiqaruvchilari eslatma tizimi mavjud bo'lgan moyni har 12 oyda o'zgartirishni aytishadi</p>
+                            <h3>Biz Qanday Ishlaymiz</h3>
+                            <p>Avtomobilga texnik xizmat ko'rsatishni eslatuvchi tizimlar haqida bilish kerak bo'lgan muhim narsa, ayniqsa transport vositalarining ishlash sharoitlarini kuzatuvchi tizimlar, ularning aniqligi bog'liqdir.</p>
                             <div className="service-style-1 service-details-what-we-do">
                                 <div className="row no-gutters">
                                     <div className="col-md-4 col-sm-6">
@@ -53,8 +53,8 @@ const ServicesSingle = (props) => {
                                                 <i className="fi flaticon-turbo"></i>
                                             </div>
                                             <div className="service-text">
-                                                <h2>Choose Your Service</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum available</p>
+                                                <h2>Xizmatingizni Tanlang</h2>
+                                                <p>Ustaxonamizdan sizga qaysi yo'nalish bo'yicha yardam kerakliligini tanlashingiz mumkin.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -64,8 +64,8 @@ const ServicesSingle = (props) => {
                                                 <i className="fi flaticon-tyre"></i>
                                             </div>
                                             <div className="service-text">
-                                                <h2>Make An Appointment</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum available</p>
+                                                <h2>Uchrashuvga yoziling</h2>
+                                                <p>Avtomobilingizni tamirlash uchun usta ko'rigiga online yozilish va vaqtingizni tejash imkoni mavjud.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -75,8 +75,8 @@ const ServicesSingle = (props) => {
                                                 <i className="fi flaticon-car-1"></i>
                                             </div>
                                             <div className="service-text">
-                                                <h2>Confrim Your Request</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum available</p>
+                                                <h2>So'rovingizni tasdiqlang</h2>
+                                                <p>Oline navbatga yozilganligingizni shirix kod orqali tasdiqlash kerak bo'ladi.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -84,8 +84,8 @@ const ServicesSingle = (props) => {
                             </div>
                         </div>
                         <div className="prv-nx">
-                            <div className="pre-btn"><Link to="/service-details">Previous</Link></div>
-                            <div className="nex-btn"><Link to="/service-details">Next</Link></div>
+                            <div className="pre-btn"><Link to="/service-details">Oldingi</Link></div>
+                            <div className="nex-btn"><Link to="/service-details">Keyingi</Link></div>
                         </div>
                     </div>
                 </div>

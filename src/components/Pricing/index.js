@@ -18,8 +18,8 @@ const Pricing = (props) => {
         <div className="container">
             <div className="col-12">
                 <div className="section-title-s2 text-center">
-                    <span>Best Pricing Plan</span>
-                    <h2>Services Packages</h2>
+                    <span>Eng yaxshi narx rejasi</span>
+                    <h2>Xizmatlar paketlari</h2>
                 </div>
             </div>
             <div className="row">
@@ -83,9 +83,9 @@ const Pricing = (props) => {
                                         <div className="pricing-single">
                                             <div className="pricing-img">
                                                 <div className="pricing-text">
-                                                    <span><small>$</small>25</span>
-                                                    <h4><Link to="/">Engine Repair</Link></h4>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                    <span><small>$</small>15</span>
+                                                    <h4><Link to="/">Dvigatel ta'mirlash</Link></h4>
+                                                    <p>CAR-SERVICE-MASTER avto tamirlash ustahonasida ishlovchi Uralov Baxtiyorga dvigatel bo'yicha qiziqqan barcha sovollaringizni berishingiz mumkin.</p>
                                                 </div>
                                                 <img src={pr1} alt=""/>
                                             </div>
@@ -102,8 +102,8 @@ const Pricing = (props) => {
                                             <div className="pricing-img-2">
                                                 <div className="pricing-text-1">
                                                     <span><small>$</small>35</span>
-                                                    <h4><Link to="/">Tires Replacement</Link></h4>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                    <h4><Link to="/">Shinalarni Almashtirish</Link></h4>
+                                                    <p>Shinalarni almashtirishni bilish har bir haydovchi uchun kerakli vositalardan biridir</p>
                                                 </div>
                                                 <img src={pr1} alt=""/>
                                             </div>
@@ -121,7 +121,7 @@ const Pricing = (props) => {
                                             <div className="pricing-text-2">
                                                 <span><small>$</small>45</span>
                                                 <h4><Link to="/">Transmission</Link></h4>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                <p>Transmission yani karobkani tamirlash bu avtomobilni yurushini yaxshilashdir.</p>
                                             </div>
                                             <img src={pr1} alt=""/>
                                         </div>
@@ -138,8 +138,8 @@ const Pricing = (props) => {
                                             <div className="pricing-img-4">
                                                 <div className="pricing-text-3">
                                                     <span><small>$</small>65</span>
-                                                    <h4><Link to="/">Diagnostic</Link></h4>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                    <h4><Link to="/">kompyuter Diognostiika</Link></h4>
+                                                    <p>Kompyuter orqali avtomobilingizni nazorat qilib qayerida defekt borligini sizga malum qiladi.</p>
                                                 </div>
                                                 <img src={pr1} alt=""/>
                                             </div>
@@ -156,8 +156,8 @@ const Pricing = (props) => {
                                             <div className="pricing-img-5">
                                                 <div className="pricing-text-4">
                                                     <span><small>$</small>50</span>
-                                                    <h4><Link to="/">Batteries</Link></h4>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                    <h4><Link to="/">Batareya</Link></h4>
+                                                    <p>Bazida shunday holatlar bo'ladiki avtomobil batareyasi yoriladi uni yamash va tamirlash mumkin.</p>
                                                 </div>
                                                 <img src={pr1} alt=""/>
                                             </div>
@@ -174,8 +174,8 @@ const Pricing = (props) => {
                                             <div className="pricing-img-6">
                                                 <div className="pricing-text-5">
                                                     <span><small>$</small>25</span>
-                                                    <h4><Link to="/">Breaks repair</Link></h4>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                                    <h4><Link to="/">Singanlarni Almashtirish</Link></h4>
+                                                    <p>Avtomobilning yardamchi extiyot qismlarini almashtirish.</p>
                                                 </div>
                                                 <img src={pr1} alt=""/>
                                             </div>

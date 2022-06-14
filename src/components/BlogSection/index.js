@@ -17,8 +17,8 @@ const BlogSection = () => {
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="section-title-s2 text-center">
-                            <span>Our blog</span>
-                            <h2>Latest News</h2>
+                            <span>Bizning blog</span>
+                            <h2>So'ngi yangiliklar</h2>
                         </div>
                     </div>
                 </div>
@@ -30,11 +30,11 @@ const BlogSection = () => {
                                     <img src={blog1} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Uralov Baxtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -45,11 +45,11 @@ const BlogSection = () => {
                                      <img src={blog2} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            By <Link onClick={ClickHandler} to="/blog-details">Meliboyev Ixtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
@@ -60,11 +60,11 @@ const BlogSection = () => {
                                     <img src={blog3} alt=""/>
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/blog-details">Importent tips for your faviorate car.</Link></h3>
+                                    <h3><Link onClick={ClickHandler} to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar.</Link></h3>
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={blog4} alt=""/>
-                                            By <Link onClick={ClickHandler} to="/blog-details">Lily Anne</Link>
+                                            Tomonidan <Link onClick={ClickHandler} to="/blog-details">Nematov Nail</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>

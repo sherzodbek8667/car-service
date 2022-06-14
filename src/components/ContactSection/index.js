@@ -13,7 +13,7 @@ const ContactSection = () => {
                 <div className="row">
                     <div className="col col-lg-7 col-md-12 col-sm-12 col-12">
                         <div className="hx-contact-content">
-                            <h2>Book An Appointment</h2>
+                            <h2>Uchrashuvni bron qilish</h2>
                             <div className="hx-contact-form">
                                 <ContactForm/>
                             </div>

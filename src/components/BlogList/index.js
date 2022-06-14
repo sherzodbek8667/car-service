@@ -26,13 +26,13 @@ const BlogList = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={aut} alt=""/>
-                                            &nbsp; By <Link to="/blog-details">Lily Anne</Link>
+                                            &nbsp; Tomonidan <Link to="/blog-details">Uralov Baxtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
-                                    <h3><Link to="/blog-details">How to get more traffic in your website</Link></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
-                                    <Link to="/blog-details" className="read-more">Read More..</Link>
+                                    <h3><Link to="/blog-details">Sevimli mashinangiz uchun muhim maslahatlar</Link></h3>
+                                    <p>Ko'plab yangi haydovchilar yangi avto uluv olgan vaqtda olingan avto ulov haqida malumotlarni bilgisi keladi sababi turli xil texnik buzulishlarni oldini olishdir.</p>
+                                    <Link to="/blog-details" className="read-more">Ko'proq o'qing...</Link>
                                 </div>
                             </div>
                             <div className="post">
@@ -43,13 +43,13 @@ const BlogList = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={aut} alt=""/>
-                                            &nbsp; By <Link to="/blog-details">Lily Anne</Link>
+                                            &nbsp; Tomonidan <Link to="/blog-details">Meliboyev Ixtiyor</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
-                                    <h3><Link to="/blog-details">25 Rules to be successful in your business.</Link></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
-                                    <Link to="/blog-details" className="read-more">Read More..</Link>
+                                    <h3><Link to="/blog-details">Avtomobilning elektrik qismlariga masul xodim bo'lib elektrik bo'yicha yuqori tajriba soxibi.</Link></h3>
+                                    <p></p>
+                                    <Link to="/blog-details" className="read-more">Ko'proq o'qing...</Link>
                                 </div>
                             </div>
                             <div className="post format-video">
@@ -63,13 +63,13 @@ const BlogList = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={aut} alt=""/>
-                                            &nbsp; By <Link to="/blog-details">Lily Anne</Link>
+                                            &nbsp; Tomonidan <Link to="/blog-details">Nematov Nail</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
-                                    <h3><Link to="/blog-details">SEO can be the best solution for your business problems.</Link></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
-                                    <Link to="/blog-details" className="read-more">Read More..</Link>
+                                    <h3><Link to="/blog-details">vtomobilning karburator, rediktor va ingektor qismlariga masul xodim bu xodimiz.</Link></h3>
+                                    <p>Avtomobilni tamirlash bo'yicha 15 yildan ortiq tajribaga ega bu xodimimiz sizning xizmatingizga tayyor.</p>
+                                    <Link to="/blog-details" className="read-more">Ko'proq o'qing..</Link>
                                 </div>
                             </div>
                             <div className="post format-quote">
@@ -77,13 +77,13 @@ const BlogList = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={aut} alt=""/>
-                                            &nbsp; By <Link to="/blog-details">Lily Anne</Link>
+                                            &nbsp; Tomonidan <Link to="/blog-details">Nazarov Olim</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
-                                    <h3><Link to="/blog-details">25 Rules to be successful in your business.</Link></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
-                                    <Link to="/blog-details" className="read-more">Read More..</Link>
+                                    <h3><Link to="/blog-details">Avtomobilning xadavoy qismiga javob beruvchi mutaxasis.</Link></h3>
+                                    <p>Bu mutaxasisimiz sizning avto ulovingizning tormiz, amertizator, rol va boshqa xadavoy sistemalariga masul xodim.</p>
+                                    <Link to="/blog-details" className="read-more">Ko'proq o'qing..</Link>
                                 </div>
                             </div>
                             <div className="post">
@@ -94,19 +94,19 @@ const BlogList = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={aut} alt=""/>
-                                            &nbsp; By <Link to="/blog-details">Lily Anne</Link>
+                                            &nbsp; By <Link to="/blog-details">Xushvaqtov Ilhom</Link>
                                         </li>
                                         <li>Octobor 12,2020</li>
                                     </ul>
-                                    <h3><Link to="/blog-details">How to get more traffic in your website</Link></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't </p>
-                                    <Link to="/blog-details" className="read-more">Read More..</Link>
+                                    <h3><Link to="/blog-details">kompyuter diognostika</Link></h3>
+                                    <p>Avtomobilni kompyuter orqali tekshiradi va qayerida qanaqa nuqsoni borligini aytadi. kompyuter orqali tuzaladigan joylarini tuzatadi.</p>
+                                    <Link to="/blog-details" className="read-more">Ko'proq o'qing..</Link>
                                 </div>
                             </div>
                             <div className="pagination-wrapper pagination-wrapper-left">
                                 <ul className="pg-pagination">
                                     <li>
-                                        <Link to="/blog-details" aria-label="Previous">
+                                        <Link to="/blog-details" aria-label="Oldinga">
                                             <i className="ti-arrow-left"></i>
                                         </Link>
                                     </li>
@@ -114,7 +114,7 @@ const BlogList = () => {
                                     <li><Link to="/blog-details">2</Link></li>
                                     <li><Link to="/blog-details">3</Link></li>
                                     <li>
-                                        <Link to="/blog-details" aria-label="Next">
+                                        <Link to="/blog-details" aria-label="keyingi">
                                             <i className="ti-arrow-right"></i>
                                         </Link>
                                     </li>

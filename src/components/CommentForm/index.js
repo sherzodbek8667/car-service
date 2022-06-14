@@ -32,19 +32,19 @@ class ContactForm extends Component {
             notes, error } = this.state;
 
         if (name === '') {
-            error.name = "Please enter your name";
+            error.name = "Iltimos, ismingizni kiriting";
         }
         if (email === '') {
-            error.email = "Please enter your email";
+            error.email = "Iltimos, elektron pochtangizni kiriting";
         }
         if (number === '') {
-            error.number = "Select your number of number";
+            error.number = "Raqam raqamingizni tanlang";
         }
         if (events === '') {
-            error.events = "Select your event list";
+            error.events = "Tadbirlar ro'yxatini tanlang";
         }
         if (notes === '') {
-            error.notes = "Please enter your note";
+            error.notes = "Iltimos, qaydingizni kiriting";
         }
 
 
@@ -77,33 +77,33 @@ class ContactForm extends Component {
             <form onSubmit={this.subimtHandler}>
                 <div className="contact-form form-style row">
                     <div className="col-12 col-lg-6">
-                        <input type="text" value={name} onChange={this.changeHandler} placeholder="Your Name*" id="fname" name="name" />
+                        <input type="text" value={name} onChange={this.changeHandler} placeholder="Ismingiz*" id="fname" name="name" />
                         <p>{error.name ? error.name : ''}</p>
                     </div>
                     <div className="col col-lg-6">
-                        <input type="text" placeholder="Phone" onChange={this.changeHandler} value={number} id="number" name="number" />
+                        <input type="text" placeholder="Telefon" onChange={this.changeHandler} value={number} id="number" name="number" />
                         <p>{error.number ? error.number : ''}</p>
                     </div>
                     <div className="col-12  col-lg-6">
-                        <input type="email" placeholder="Your Email" onChange={this.changeHandler} value={email} id="email" name="email" />
+                        <input type="email" placeholder="Sizning elektron manzilingiz" onChange={this.changeHandler} value={email} id="email" name="email" />
                         <p>{error.email ? error.email : ''}</p>
                     </div>
                     <div className="col col-lg-6">
                         <select className="form-control" onChange={this.changeHandler} value={events} name="events">
-                            <option disabled value="">Tires Replacement</option>
-                            <option value="1">Transmission</option>
-                            <option value="2">Diagnostic</option>
-                            <option value="3">Batteries</option>
-                            <option value="4">Breaks</option>
+                            <option disabled value="">Shinalarni almashtirish</option>
+                            <option value="1">Avto Moyka</option>
+                            <option value="2">Kompyuter Diagnostika</option>
+                            <option value="3">Batareyalarni Almashtirish</option>
+                            <option value="4">Singan Joylarni Almashtirish</option>
                         </select>
                         <p>{error.events ? error.events : ''}</p>
                     </div>
                     <div className="col-12 col-sm-12">
-                        <textarea className="contact-textarea" value={notes} onChange={this.changeHandler} placeholder="Message" name="notes"></textarea>
+                        <textarea className="contact-textarea" value={notes} onChange={this.changeHandler} placeholder="Xabar" name="notes"></textarea>
                         <p>{error.notes ? error.notes : ''}</p>
                     </div>
                     <div className="col-12">
-                            <button type="submit" className="theme-btn-s4">Appointment</button>
+                            <button type="submit" className="theme-btn-s4">Uchrashuv</button>
                     </div>
                 </div>
             </form>

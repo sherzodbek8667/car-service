@@ -11,13 +11,13 @@ class SimpleSlider3 extends Component {
                 <div className="row">
                     <div className="col col-lg-6 col-md-7">
                         <div className="slide-title">
-                            <h2>We Ensure Your Safe<span>& Happy Journey</span></h2>
+                            <h2>Xavfsizligingizni Ta'minlaymiz<span>& Baxtli Sayohat</span></h2>
                         </div>
                         <div className="slide-subtitle">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+                            <p>Bizda faqat va faqat sifatli xizmat ko'rsatiladi chunki barcha xodimlarimiz eng zo'r xodimlardir.</p>
                         </div>
                         <div className="btns">
-                            <Link to="/contact" className="theme-btn-s2">Contact Us</Link>
+                            <Link to="/contact" className="theme-btn-s2">Biz bilan bog'lanish</Link>
                         </div>
                     </div>
                     <div className="hero-image-3"></div>

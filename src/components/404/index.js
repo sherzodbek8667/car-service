@@ -18,9 +18,9 @@ const Error = (props) => {
                             <img src={pr1} alt=""/>
                         </div>
                         <div className="error-message">
-                            <h3>Oops! Page Not Found!</h3>
-                            <p>We’re sorry but we can’t seem to find the page you requested. This might be because you have typed the web address incorrectly.</p>
-                            <Link onClick={ClickHandler} to="/" className="theme-btn-s2">Back to home</Link>
+                            <h3>Sahifa topilmadi!</h3>
+                            <p>Kechirasiz, lekin siz so'ragan sahifani topa olmadik. Buning sababi veb-manzilni noto'g'ri kiritganingiz bo'lishi mumkin.</p>
+                            <Link onClick={ClickHandler} to="/" className="theme-btn-s2">Bosh sahifaga qaytish</Link>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const Contactpage = () => {
                         </div>
                         <div className="col col-lg-7 col-md-12 col-sm-12 col-12">
                             <div className="hx-contact-content">
-                                <h2>Get In Touch</h2>
+                                <h2>Aloqa qiling</h2>
                                 <div className="hx-contact-form">
                                     <ContactForm/>
                                 </div>
@@ -35,8 +35,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-call"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Call Us Now</h4>
-                                    <span>+(008) 001-234-567 </span>
+                                    <h4>Bizga hozir qo'ng'iroq qiling</h4>
+                                    <span>+(998) 99 7798667 </span>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-message"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Mail Us Today</h4>
-                                    <span>youremail@gmail.com</span>
+                                    <h4>Bugun bizga xat yuboring</h4>
+                                    <span>sherzodbek@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -57,8 +57,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-placeholder"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Our Location</h4>
-                                    <span>150 Street, London, USA</span>
+                                    <h4>Bizning joylashuvimiz</h4>
+                                    <span>25 uy, Rudakiy ko'chasi</span>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Contactpage = () => {
                     <div className="row">
                         <div className="col col-xs-12">
                             <div className="contact-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8812.711763988045!2d66.95834756433288!3d39.67009832747999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1655129755161!5m2!1sen!2s" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

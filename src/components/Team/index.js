@@ -18,8 +18,8 @@ class TeamSection extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title-s2 text-center">
-                            <span>Meet Our Expertise</span>
-                            <h2>Our Awesome Team</h2>
+                            <span>Bizning tajribamiz bilan tanishing</span>
+                            <h2>Bizning ajoyib jamoamiz</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -33,7 +33,7 @@ class TeamSection extends Component {
                                         <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Riccardo Cavallo</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Nematov Shaxzod</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ class TeamSection extends Component {
                                         <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Calvy Jenefar</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Shermatova Gulola</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ class TeamSection extends Component {
                                         <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Alexsandar Nick</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Meliyev Baxtiyor</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ class TeamSection extends Component {
                                         <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">David Simon</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Xoliqova Zilola</Link></h3>
                                     </div>
                                 </div>
                             </div>
